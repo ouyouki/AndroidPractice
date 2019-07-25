@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MedLottery</string>
+    <string name="title_match">近期赛程</string>
+    <string name="title_bigdata">大数据分析</string>
+    <string name="title_vip">超级会员</string>
+    <string name="title_activity_login">登录地中海</string>
+    <!-- Strings related to login -->
+    <string name="prompt_account">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">用户登录</string>
+    <string name="error_invalid_account">账号错误</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">账户或密码不存在</string>
+    <string name="error_field_required">此项目不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
