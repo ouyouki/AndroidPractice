@@ -25,17 +25,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent();
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    intent.setClass(MainActivity.this, ListViewActivity.class);
-                    startActivity(intent);
-                    return true;
+//                    intent.setClass(MainActivity.this, ListViewActivity.class);
+//                    startActivity(intent);
+//                    return true;
                 case R.id.navigation_dashboard:
-                    intent.setClass(MainActivity.this, RecyclerViewActivity.class);
-                    startActivity(intent);
-                    return true;
+//                    intent.setClass(MainActivity.this, RecyclerViewActivity.class);
+//                    startActivity(intent);
+//                    return true;
                 case R.id.navigation_notifications:
-                    intent.setClass(MainActivity.this, LoginActivity.class);
-                    startActivity(intent);
-                    return true;
+//                    intent.setClass(MainActivity.this, LoginActivity.class);
+//                    startActivity(intent);
+//                    return true;
             }
             return false;
         }
@@ -48,5 +48,10 @@ public class MainActivity extends AppCompatActivity {
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+    }
+
+    public void discernObject(View view) {
+        Intent intent = new Intent(MainActivity.this, CameraDiscernmentActivity.class);
+        MainActivity.this.startActivity(intent);
     }
 }
